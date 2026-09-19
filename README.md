@@ -23,9 +23,7 @@ Project analisis data penjualan sederhana menggunakan Python. Project ini dibuat
 ## Cara Menjalankan
 
 1. Install dependencies:
-2. 
 2. Jalankan versi command-line (menghasilkan ringkasan di terminal + file grafik PNG):
-3. 
 3. Atau jalankan versi web interaktif:
       Browser akan otomatis terbuka di `http://localhost:8501`
 
