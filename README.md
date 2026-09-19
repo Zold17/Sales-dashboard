@@ -20,12 +20,32 @@ Project analisis data penjualan sederhana menggunakan Python. Project ini dibuat
 
 ## Struktur Project
 
+```
+sales_dashboard/
+├── data_penjualan.csv     # Dataset contoh (data dummy)
+├── analisis.py            # Script analisis versi command-line
+├── app.py                 # Dashboard interaktif versi web (Streamlit)
+├── requirements.txt       # Daftar library yang dibutuhkan
+└── README.md
+```
+
 ## Cara Menjalankan
 
 1. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+
 2. Jalankan versi command-line (menghasilkan ringkasan di terminal + file grafik PNG):
+   ```
+   python analisis.py
+   ```
+
 3. Atau jalankan versi web interaktif:
-      Browser akan otomatis terbuka di `http://localhost:8501`
+   ```
+   streamlit run app.py
+   ```
+   Browser akan otomatis terbuka di `http://localhost:8501`
 
 ## Data
 
